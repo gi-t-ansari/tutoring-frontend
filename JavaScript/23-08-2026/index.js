@@ -158,3 +158,8 @@ btnElement.addEventListener("click", (event) => {
   //   console.log(event);
   console.log("btn is clicked");
 });
+
+btnElement.addEventListener("dblclick", (event) => {
+  //   console.log(event);
+  console.log("btn is double clicked");
+});

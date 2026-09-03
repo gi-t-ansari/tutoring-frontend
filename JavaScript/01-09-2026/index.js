@@ -2,7 +2,7 @@ const imageInput = document.querySelector("#image");
 const imageElement = document.querySelector("#image-element");
 
 imageInput.addEventListener("change", (event) => {
-  //   console.log(event.target.files[0]);
+  console.log(event.target.files);
   //   console.log(URL.createObjectURL(event.target.files[0]));
 
   imageElement.setAttribute("src", URL.createObjectURL(event.target.files[0]));
@@ -43,3 +43,14 @@ const timeInput = document.querySelector("#time-input");
 timeInput.addEventListener("change", (event) => {
   console.log(event.target.value);
 });
+
+// const files = {
+//   0: { file: "some time" },
+//   1: { file: "fimle name" },
+// };
+
+// files[0];
+
+// for (let file in files) {
+//   console.log(file);
+// }

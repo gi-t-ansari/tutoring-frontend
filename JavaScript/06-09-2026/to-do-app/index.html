@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <header class="header">
+        <h1 class="heading">To Do App</h1>
+        <button id="task-btn" class="header-btn">Add Task</button>
+      </header>
+
+      <div class="table-outer-container">
+        <div class="table-inner-container">
+          <table class="table">
+            <thead class="t-head">
+              <tr class="t-row">
+                <th align="left" class="t-heading">Sr. No.</th>
+                <th align="left" class="t-heading">Title</th>
+                <th align="left" class="t-heading">Action</th>
+              </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="slider" class="slider-wrapper">
+        <div class="slider-top">
+          <h2 class="slider-heading">Add Task</h2>
+          <button id="slider-close-btn" class="slider-btn">X</button>
+        </div>
+        <form id="task-form" class="slider-form">
+          <div class="input-wrapper">
+            <label for="task-title" class="input-label">Title</label>
+            <input
+              class="input"
+              type="text"
+              id="task-title"
+              name="title"
+              placeholder="Enter title"
+              required
+            />
+          </div>
+          <button id="submit-btn" class="form-btn" type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div id="success-popup" class="popup-outer-container">
+        <div class="popup-inner-container">
+          <h2 class="popup-heading">Task Added Successfully</h2>
+          <button id="popup-close-btn">Okay</button>
+        </div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

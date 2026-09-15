@@ -1,5 +1,5 @@
 // API -> Application Programming Interface
-// A medium/bridge to interact and exchange data between two different applications.
+// A medium/bridge/way to interact and exchange data between two different applications.
 
 // JSON -> JavaScript Object Notation (Data format/type that applications used to transfer their data)
 
@@ -29,24 +29,23 @@ const userDataInJSON = JSON.stringify(userData);
 // asynchronous javascript -> two or more parallel task running behind the scene without blocking the synchronous behavior of javascript
 // application mostly in api calls, cookies popup features
 
-console.log("A");
+// console.log("A");
 
-setTimeout(() => {
-  console.log("B");
-}, 5000);
+// setTimeout(() => {
+//   console.log("B");
+// }, 5000);
 
-console.log("C");
+// console.log("C");
 
-// Promises In JS -> Promises are asynchronous programming
+// Promises In JS -> Promises are representations the future result of an asynchronous operation.
 // Initially promises are in pending state, then either it resolves/fullfil or rejects
 
 const promise = new Promise((resolve, reject) => {
-  if (resolve) {
-    console.log("resolved");
-  }
-
-  if (reject) {
-    console.log("rejected");
+  const success = true;
+  if (success) {
+    resolve("success");
+  } else {
+    reject("Error");
   }
 });
 
@@ -58,5 +57,5 @@ promise
     console.log(err);
   })
   .finally(() => {
-    // some programming -> runs irrespective of the promises state.
+    console.log("request completed");
   });

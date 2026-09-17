@@ -43,6 +43,7 @@ setTimeout(() => {
 
 // Promises In JS -> Promises are representations of the future result of an asynchronous operation.
 // Initially promises are in pending state, then either it resolves/fullfil or rejects
+// Promise((resolve,reject) =>{})
 
 // const promise = new Promise((resolve, reject) => {
 //   const isAvailable = true;

@@ -45,7 +45,18 @@ const anotherFn = async () => {
   console.log("B");
 };
 
-anotherFn();
+const tryCatchExample = async () => {
+  try {
+    const data = await promise;
+    console.log(data);
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+tryCatchExample();
+
+// anotherFn();
 
 // API Call/Integration:
 // fetch(): JS inbuilt method which is used to preform API call.

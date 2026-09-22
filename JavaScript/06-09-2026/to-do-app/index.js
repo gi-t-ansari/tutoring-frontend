@@ -68,3 +68,10 @@ const popupCloseBtn = document.querySelector("#popup-close-btn");
 popupCloseBtn.addEventListener("click", () => {
   popupElement.classList.remove("open-popup");
 });
+
+const addtwoNumber = (a, b) => {
+  return a + b;
+};
+
+addtwoNumber(1, 2);
+addtwoNumber(2, 3);

@@ -1,0 +1,36 @@
+.card-container {
+  width: 20rem;
+  height: fit-content;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #79716b;
+}
+
+.card-top {
+  width: 100%;
+  height: 20rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-bottom {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.card-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card-description {
+  font-size: 0.875rem;
+  color: #364153;
+}

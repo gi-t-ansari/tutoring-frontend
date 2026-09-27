@@ -1,0 +1,66 @@
+.counter-container {
+  width: 20rem;
+  max-width: 90%;
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background-color: #6a7282;
+  display: grid;
+  gap: 1rem;
+}
+
+.count {
+  width: 100%;
+  background-color: #fff;
+  font-size: 2.5rem;
+  border-radius: 0.5rem;
+  padding-block: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn-container {
+  width: 100%;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.actin-btn {
+  padding-block: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.actin-btn:hover {
+  color: #fff;
+}
+
+.increment-btn {
+  background-color: #a4f4cf;
+  border: 1px solid #00bc7d;
+}
+
+.increment-btn:hover {
+  background-color: #00bc7d;
+}
+
+.decrement-btn {
+  background-color: #ffa2a2;
+  border: 1px solid #fb2c36;
+}
+
+.decrement-btn:hover {
+  background-color: #fb2c36;
+}
+
+.reset-btn {
+  background-color: #53eafd;
+  border: 1px solid #00a6f4;
+}
+
+.reset-btn:hover {
+  background-color: #00a6f4;
+}

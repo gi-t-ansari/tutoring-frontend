@@ -1,0 +1,25 @@
+.card-container {
+  width: fit-content;
+  height: fit-content;
+  background-color: #6a7282;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  display: grid;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-email {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card-age {
+  font-size: 1rem;
+  font-weight: 500;
+}

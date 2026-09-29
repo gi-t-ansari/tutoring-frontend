@@ -1,0 +1,12 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #e5e7eb;
+}
+
+.copyright-text {
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.8;
+}

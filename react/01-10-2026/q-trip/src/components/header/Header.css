@@ -1,0 +1,17 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d1d5dc;
+  padding: 1rem 2rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}

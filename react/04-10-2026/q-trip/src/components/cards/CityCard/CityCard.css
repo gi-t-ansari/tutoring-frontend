@@ -1,0 +1,44 @@
+.city-card-wrapper {
+  width: 15rem;
+  height: 25rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.city-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.125rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  z-index: 3;
+}
+
+.city-desc {
+  font-size: rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  z-index: 3;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

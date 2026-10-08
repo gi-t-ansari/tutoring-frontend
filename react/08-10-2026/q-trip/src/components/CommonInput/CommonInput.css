@@ -1,0 +1,36 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.input-container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+
+.input {
+  width: 30rem;
+  max-width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #4a5565;
+}
+
+.input-error {
+  font-size: 0.75rem;
+  color: #fb2c36;
+}

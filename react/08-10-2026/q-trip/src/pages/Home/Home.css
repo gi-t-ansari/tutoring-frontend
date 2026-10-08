@@ -1,0 +1,29 @@
+.hero {
+  height: 35rem;
+  background-image: url("../../assets/hero-bg-image.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-desc {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.city-cards {
+  padding: 2rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}

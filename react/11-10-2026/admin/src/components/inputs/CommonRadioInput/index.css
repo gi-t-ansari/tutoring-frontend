@@ -1,0 +1,21 @@
+.radio-container {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.radio-main-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.radio-wrapper {
+  display: inline-block;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.radio-label {
+  font-size: 0.875rem;
+}

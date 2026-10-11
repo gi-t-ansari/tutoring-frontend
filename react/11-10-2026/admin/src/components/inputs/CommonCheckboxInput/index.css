@@ -1,0 +1,20 @@
+.checkbox-container {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.checkbox-main-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.checkbox-wrapper {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkbox-label {
+  font-size: 0.875rem;
+}

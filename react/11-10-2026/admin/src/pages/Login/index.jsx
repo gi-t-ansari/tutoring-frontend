@@ -23,10 +23,10 @@ const Login = () => {
     console.log("Runs every time the value of selectedGender changes");
   }, [selectedGender]);
 
-  // Runs on every re render
-  useEffect(() => {
-    console.log("Runs on every re render");
-  });
+  // // Runs on every re render
+  // useEffect(() => {
+  //   console.log("Runs on every re render");
+  // });
 
   return (
     <div>

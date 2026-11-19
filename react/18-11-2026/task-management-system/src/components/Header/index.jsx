@@ -2,7 +2,7 @@ import React from "react";
 import { PiListChecksBold } from "react-icons/pi";
 import { FaPlus } from "react-icons/fa";
 
-const Header = () => {
+const Header = ({ setOpenAddTask }) => {
   return (
     <header className="w-full bg-white p-2 rounded-lg flex justify-between items-center">
       <div className="flex items-center gap-2">
@@ -17,9 +17,12 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="p-2 bg-[#5925f1] rounded-md">
+      <button
+        className="p-2 bg-[#5925f1] rounded-md"
+        onClick={() => setOpenAddTask(true)}
+      >
         <FaPlus className="text-white text-lg cursor-pointer" />
-      </div>
+      </button>
     </header>
   );
 };
